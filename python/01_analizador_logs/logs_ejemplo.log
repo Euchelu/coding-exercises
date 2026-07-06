@@ -1,0 +1,16 @@
+2026-07-06 09:00:01 [INFO] Servidor iniciado en el puerto 8080
+2026-07-06 09:00:02 [DEBUG] Cargando configuracion desde config.yaml
+2026-07-06 09:01:15 [INFO] Usuario 'ana' inicio sesion
+2026-07-06 09:02:47 [WARNING] Uso de memoria por encima del 80%
+2026-07-06 09:03:10 [ERROR] No se pudo conectar a la base de datos
+2026-07-06 09:03:11 [ERROR] No se pudo conectar a la base de datos
+2026-07-06 09:03:12 [ERROR] No se pudo conectar a la base de datos
+2026-07-06 09:03:40 [INFO] Reintentando conexion a la base de datos
+2026-07-06 09:03:45 [INFO] Conexion a la base de datos restablecida
+2026-07-06 09:05:00 [DEBUG] Cache invalidada para la clave 'sesiones'
+2026-07-06 09:06:22 [WARNING] Peticion lenta detectada: /api/reportes (2.3s)
+esta linea esta mal formada y debe ser ignorada
+2026-07-06 09:07:59 [CRITICAL] Se agoto el espacio en disco
+2026-07-06 09:08:00 [INFO] Usuario 'luis' inicio sesion
+2026-07-06 09:09:30 [ERROR] No se pudo conectar a la base de datos
+2026-07-06 09:10:00 [INFO] Usuario 'ana' cerro sesion
