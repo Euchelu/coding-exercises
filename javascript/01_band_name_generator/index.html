@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generador de Nombres de Bandas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="glow glow-left"></div>
+  <div class="glow glow-right"></div>
+
+  <main>
+    <header>
+      <p class="tag">🎸 generador aleatorio</p>
+      <h1>Nombres de <span class="gradient">Bandas</span></h1>
+      <p class="subtitle">Pulsa el botón y descubre el nombre de tu próxima banda legendaria</p>
+    </header>
+
+    <section class="result-area" id="result-area">
+      <div class="result-card" id="result-card">
+        <span class="result-icon" id="result-icon">🎵</span>
+        <p class="result-name" id="result-name">¿Listo para el éxito?</p>
+        <p class="result-genre" id="result-genre">Pulsa Generar</p>
+      </div>
+    </section>
+
+    <div class="actions">
+      <button id="btn-generate" class="btn btn-primary">
+        <span>⚡</span> Generar nombre
+      </button>
+      <button id="btn-save" class="btn btn-secondary" disabled>
+        <span>❤️</span> Guardar favorito
+      </button>
+    </div>
+
+    <section class="favorites" id="favorites-section">
+      <div class="favorites-header">
+        <h2>Favoritos <span id="fav-count" class="badge">0</span></h2>
+        <button id="btn-share" class="btn btn-ghost" style="display:none">
+          📋 Copiar lista
+        </button>
+      </div>
+      <ul id="favorites-list"></ul>
+      <p class="empty-msg" id="empty-msg">Guarda los que más te gusten</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
