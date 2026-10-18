@@ -1,0 +1,12 @@
+# Configuración local del editor
+.vscode/
+.idea/
+
+# Binarios compilados
+*.class
+*.o
+C/02_mini_shell/mini_shell
+C/03_memory_allocator/demo
+
+# Python
+__pycache__/
